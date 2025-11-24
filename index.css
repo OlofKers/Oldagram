@@ -48,6 +48,9 @@ body{
     width: 120px;
 }
 
+footer{
+    margin-top: 50px;
+}
 
 /* Text stylering */
 .bold-text,
@@ -96,5 +99,5 @@ figure{
 }
 
 .github-logo{
-    width: 80px;
+    width: 50px;
 }
