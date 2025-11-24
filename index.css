@@ -4,7 +4,7 @@ html, body {
     font-size: 16px;
 }
 
-/* Basic Layout */
+/* Layout */
 body{
     background: url(images/background-pattern.png);
     display: flex;
@@ -33,7 +33,7 @@ body{
 .post-creator{
     display: flex;
     padding: 10px 10px 0px;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
 }
 
@@ -41,10 +41,20 @@ body{
     padding: 10px;
 }
 
+.post-controls{
+    vertical-align: top;
+    display: flex;
+    text-align: center;
+    width: 120px;
+}
+
+
 /* Text stylering */
-.bold-text{
+.bold-text,
+.caption{
     font-weight: bold;
 }
+
 
 .location{
     margin-top: 0;
@@ -52,8 +62,12 @@ body{
     display:block;
 }
 
-/* imagery */
 
+figure{
+    margin: 5px 10px;
+}
+
+/* imagery */
 .logo{
     display: inline-block;
     margin-bottom: 20px;
@@ -72,6 +86,13 @@ body{
 .share-btn{
     width: 40px;
     margin-right: 4px;
+    cursor: pointer;
+}
+
+.like-btn:hover,
+.comment-btn:hover,
+.share-btn:hover{
+    opacity: 0.55;
 }
 
 .github-logo{
