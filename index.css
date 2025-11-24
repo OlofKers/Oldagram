@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 /* Basic Layout */
@@ -9,6 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 .content{
@@ -24,18 +26,38 @@ body{
     gap: 250px;
     justify-content: center;
     height: 80px;
-    padding: 0px 20px;
+    padding: 0px 15px;
     border-bottom: 2px solid #C6C6C6;
 }
 
+.post-creator{
+    display: flex;
+    padding: 10px 10px 0px;
+    gap: 5px;
+    align-items: center;
+}
 
+.post-bottom{
+    padding: 10px;
+}
+
+/* Text stylering */
+.bold-text{
+    font-weight: bold;
+}
+
+.location{
+    margin-top: 0;
+    padding: 0;
+    display:block;
+}
 
 /* imagery */
 
 .logo{
     display: inline-block;
     margin-bottom: 20px;
-    height: 60px;
+    width: 160px;
 }
 
 .profile-img,
@@ -45,6 +67,12 @@ body{
     border-radius: 360px;
 }
 
+.like-btn,
+.comment-btn,
+.share-btn{
+    width: 40px;
+    margin-right: 4px;
+}
 
 .github-logo{
     width: 80px;
