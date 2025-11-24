@@ -3,3 +3,7 @@ html, body {
     padding: 0;
 }
 
+body{
+    background: url(images/background-pattern.png);
+}
+
